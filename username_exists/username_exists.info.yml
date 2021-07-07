@@ -1,0 +1,5 @@
+name: Username Exists
+description: Module to check if username is exist or not using ajax
+type: module
+package: custom
+core: 8.x
