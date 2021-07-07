@@ -1,0 +1,7 @@
+username_exists.check_username:
+  path: '/check-username'
+  defaults:
+    _form: '\Drupal\username_exists\Form\AjaxCheckUsernameForm'
+    _title: 'Check Username'
+  requirements:
+    _permission: 'access content'  
